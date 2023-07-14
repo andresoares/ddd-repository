@@ -1,5 +1,5 @@
 import Address from "../../domain/entity/address";
-import WhenCustomerIsCreated1Handler from "../product/when-customer-is-created-1.handler";
+import WhenCustomerIsCreated1Handler from "../customer/when-customer-is-created-1.handler";
 import CustomerService from "./customer-service";
 
 describe("Domain events tests", () => {

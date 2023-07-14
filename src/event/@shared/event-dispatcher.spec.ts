@@ -1,10 +1,10 @@
-import CustomerAddressChangedEvent from "../product/customer-address-changed.event";
-import CustomerCreatedEvent from "../product/customer-created.event";
+import CustomerAddressChangedEvent from "../customer/customer-address-changed.event";
+import CustomerCreatedEvent from "../customer/customer-created.event";
 import ProductCreatedEvent from "../product/product-created.event";
 import SendEmailWhenProductIsCreatedHandler from "../product/send-email-when-product-is-created.handler";
-import WhenCustomerAddressChangedHandler from "../product/when-customer-address-changed.handler";
-import WhenCustomerIsCreated1Handler from "../product/when-customer-is-created-1.handler";
-import WhenCustomerIsCreated2Handler from "../product/when-customer-is-created-2.handler";
+import WhenCustomerAddressChangedHandler from "../customer/when-customer-address-changed.handler";
+import WhenCustomerIsCreated1Handler from "../customer/when-customer-is-created-1.handler";
+import WhenCustomerIsCreated2Handler from "../customer/when-customer-is-created-2.handler";
 import EventDispatcher from "./event-dispatcher";
 
 describe("Domain events tests", () => {

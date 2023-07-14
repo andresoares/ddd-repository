@@ -1,7 +1,7 @@
 import EventDispatcher from "../@shared/event-dispatcher";
-import WhenCustomerAddressChangedHandler from "../product/when-customer-address-changed.handler";
-import WhenCustomerIsCreated1Handler from "../product/when-customer-is-created-1.handler";
-import WhenCustomerIsCreated2Handler from "../product/when-customer-is-created-2.handler";
+import WhenCustomerAddressChangedHandler from "../customer/when-customer-address-changed.handler";
+import WhenCustomerIsCreated1Handler from "../customer/when-customer-is-created-1.handler";
+import WhenCustomerIsCreated2Handler from "../customer/when-customer-is-created-2.handler";
 
 const CUSTOMER_ADDRESS_CHANGED_EVENT = "CustomerAddressChangedEvent";
 const CUSTOMER_CREATED_EVENT = "CustomerCreatedEvent";

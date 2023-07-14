@@ -1,9 +1,9 @@
 import Customer from "../../domain/entity/customer";
 import Address from "../../domain/entity/address";
 import { v4 as uuid } from "uuid";
-import CustomerCreatedEvent from "../product/customer-created.event";
+import CustomerCreatedEvent from "../customer/customer-created.event";
 import { Service } from "./service";
-import CustomerAddressChangedEvent from "../product/customer-address-changed.event";
+import CustomerAddressChangedEvent from "../customer/customer-address-changed.event";
 
 export default class CustomerService extends Service{
 
